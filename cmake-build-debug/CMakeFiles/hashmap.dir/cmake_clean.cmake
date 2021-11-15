@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hashmap.dir/library.c.o"
-  "libhashmap.a"
-  "libhashmap.pdb"
+  "CMakeFiles/hashmap.dir/main.c.o"
+  "hashmap"
+  "hashmap.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

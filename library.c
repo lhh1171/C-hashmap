@@ -177,40 +177,40 @@ void foreach(){
         }
     }
 }
-int  main()
-{
-
-    init();
-    put("!#abc","huangsheng");
-    put("Dabc","liaili");
-    foreach();
-    put("!#abc","vv");
-    put("Dabc","aa");
-    put("abcD","gg");
-    put("acbD","ff");
-    put("name","fa");
-    put("email","11110@qq.com");
-    put("university","华东吃饭大学");
-    foreach();
-    printf("remove->\n");
-    removeKV("abcD");
-    foreach();
-    removeKV("!#abc");
-    foreach();
-    removeKV("!#abc");
-    printf("重复删除\n");
-    foreach();
-    removeKV("Dabc");
-    foreach();
-    removeKV("acbD");
-    foreach();
-    // printf("_get(Dabc)%s\n",_get("Dabc") );
-    // if(_get("name")==NULL){
-    //     printf("name is NULL\n");
-    //     put("name","hs");
-    // }
-    foreach();
-    // put("name","hanbindashadiao");
-    //foreach();
-    return 0;
-}
+//int  main()
+//{
+//
+//    init();
+//    put("!#abc","huangsheng");
+//    put("Dabc","liaili");
+//    foreach();
+//    put("!#abc","vv");
+//    put("Dabc","aa");
+//    put("abcD","gg");
+//    put("acbD","ff");
+//    put("name","fa");
+//    put("email","11110@qq.com");
+//    put("university","华东吃饭大学");
+//    foreach();
+//    printf("remove->\n");
+//    removeKV("abcD");
+//    foreach();
+//    removeKV("!#abc");
+//    foreach();
+//    removeKV("!#abc");
+//    printf("重复删除\n");
+//    foreach();
+//    removeKV("Dabc");
+//    foreach();
+//    removeKV("acbD");
+//    foreach();
+//    // printf("_get(Dabc)%s\n",_get("Dabc") );
+//    // if(_get("name")==NULL){
+//    //     printf("name is NULL\n");
+//    //     put("name","hs");
+//    // }
+//    foreach();
+//    // put("name","hanbindashadiao");
+//    //foreach();
+//    return 0;
+//}

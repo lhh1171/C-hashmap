@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/lqc/CLionProjects/hashmap/library.c" "/home/lqc/CLionProjects/hashmap/cmake-build-debug/CMakeFiles/hashmap.dir/library.c.o"
+  "/home/lqc/CLionProjects/hashmap/main.c" "/home/lqc/CLionProjects/hashmap/cmake-build-debug/CMakeFiles/hashmap.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

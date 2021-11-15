@@ -150,6 +150,33 @@ library.c.s:
 	$(MAKE) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/library.c.s
 .PHONY : library.c.s
 
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/main.c.s
+.PHONY : main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

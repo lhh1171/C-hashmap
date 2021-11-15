@@ -1,2 +1,1 @@
-/usr/bin/ar qc libhashmap.a  CMakeFiles/hashmap.dir/library.c.o
-/usr/bin/ranlib libhashmap.a
+/usr/bin/cc -g   CMakeFiles/hashmap.dir/library.c.o CMakeFiles/hashmap.dir/main.c.o  -o hashmap 

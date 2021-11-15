@@ -38,10 +38,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="hashmap">
-				<Option output="/home/lqc/CLionProjects/hashmap/cmake-build-debug/libhashmap.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/lqc/CLionProjects/hashmap/cmake-build-debug/hashmap" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/lqc/CLionProjects/hashmap/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
@@ -57,10 +57,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="hashmap/fast">
-				<Option output="/home/lqc/CLionProjects/hashmap/cmake-build-debug/libhashmap.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/lqc/CLionProjects/hashmap/cmake-build-debug/hashmap" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/lqc/CLionProjects/hashmap/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
@@ -80,6 +80,9 @@
 			<Option target="hashmap"/>
 		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/hashmap/library.h">
+			<Option target="hashmap"/>
+		</Unit>
+		<Unit filename="/home/lqc/CLionProjects/hashmap/main.c">
 			<Option target="hashmap"/>
 		</Unit>
 		<Unit filename="/home/lqc/CLionProjects/hashmap/CMakeLists.txt">
